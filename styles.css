@@ -1,0 +1,84 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+ 
+body{
+    background-color: #2B2B2B;
+}
+h1{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+  text-align: center;
+
+}
+h3{
+  margin-top: 0%;
+  font-size: xx-large;
+  color: aliceblue;
+}
+sub{
+  font-size: xx-large;
+  color: azure;
+}
+.btn{
+  margin-bottom: 1%;
+}
+.column {
+    float: left;
+    width: 30%;
+
+  }
+  .row{
+
+  background-image: url("images/bg3.png");
+  height: 500px;
+  
+  
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  #im1{
+    visibility: hidden;
+    margin-left: 150px;
+  }
+  #im2{
+    visibility: hidden;
+  }
+  #im3{
+    visibility: hidden;
+  }
+  #playbtn{
+    visibility: hidden;
+    margin-left: 20%;
+   
+  }
+  #resetbtn{
+    visibility: hidden; 
+  margin-left: 5%;
+  
+  }
+  .para{
+    padding-left: 10px;
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: xx-large;
+  }
+  #playbtn1{
+    visibility: hidden;
+  }
+  #playbtn2{
+    visibility: hidden;
+  }
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+  }
